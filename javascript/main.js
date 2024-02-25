@@ -20,7 +20,7 @@ document.querySelectorAll('.btnDetail').forEach(item => {
         document.querySelector('.modalHarga').innerHTML = harga;
 
         const nohp = '6283181270763';
-        let pesan = `https://api.whatsapp.com/send?phone = ${nohp} &text=hallo kak, saya mau pesan produk ini ${gambar}`;
+        let pesan = `https://wa.me/6283181270763 = ${nohp} &text=hallo kak, saya mau pesan produk ini ${gambar}`;
 
         document.querySelector('.btnBeli').href = pesan;
 
